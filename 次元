@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝区零同人【每日更新】</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .video-container {
+            margin-bottom: 50px;
+            position: relative;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: block;
+            margin: 0 auto;
+        }
+        .footer-buttons {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .footer-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .footer-buttons a:hover {
+            background-color: #0056b3;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.6);
+            z-index: 1000;
+        }
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .close {
+            float: right;
+            font-size: 28px;
+            cursor: pointer;
+            color: #aaa;
+        }
+        .close:hover {
+            color: #000;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .modal-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>绝区零同人【每日更新】</h1>
+
+<!-- 视频播放 -->
+<div class="video-container">
+    <video id="video1" class="locked" data-title="视频1">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeih6fx3z42vcp7jauwywa3o4qzjdfuozweptwjkoba4iivg5tibi7q" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+<div class="video-container">
+    <video id="video2" class="locked" data-title="视频2">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeihjlva56nrbs5wjtd4q7ev2bdozwkxgnjlateiyhoc4rbafne2ikq" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+<div class="video-container">
+    <video id="video3" class="locked" data-title="视频3">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeieue5lmq77y7jcxjq3vky53eo5p5qgrlgbls2dmykaht24dehho44" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+<div class="video-container">
+    <video id="video4" class="locked" data-title="视频4">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeifrlhikehkxshruzl3x6ieqmudzg7l7vuo2onyny2zwsmlm2sm5ta" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+<div class="video-container">
+    <video id="video5" class="locked" data-title="视频5">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeiaypchmaa6x3xemoazviugce7gza3xml3chrzukrj5l3jvkc2qk44" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+<div class="video-container">
+    <video id="video6" class="locked" data-title="视频6">
+        <source src="https://gateway.pinata.cloud/ipfs/bafybeice6b6s34cz7mefyox6g3u2ymn5zskehxnfukdglaoro63dceb75e" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+</div>
+
+<!-- 底部按钮 -->
+<div class="footer-buttons">
+    <a href="https://any66.lanzoub.com/b04qregtc" target="_blank">点击我查看学习资料</a>
+    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jG6Xevd7U1V9qzZi-fYW7658Kpl699Ir&authKey=hMwndjVfO1ZcQ%2BiRWX1sQbC0XeQ%2B%2BSr3uWwwRepCS6B2o24HAPetuVTuciT%2F8gZs&noverify=0&group_code=780243469" target="_blank">点击我进群</a>
+</div>
+
+<!-- 密码输入弹窗 -->
+<div id="passwordModal" class="modal">
+    <div class="modal-content">
+        <span class="close">×</span>
+        <p id="modalMessage">请输入密码以解锁视频</p>
+        <input type="password" id="passwordInput" placeholder="请输入密码">
+        <div class="modal-buttons">
+            <button id="submitPassword">输入密码</button>
+            <button id="getPasswordBtn">点我进群获取密码</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 定义视频状态，所有密码统一为 "ying9"
+    var videos = {
+        'video1': { element: document.getElementById('video1'), unlocked: false, password: 'ying9' },
+        'video2': { element: document.getElementById('video2'), unlocked: false, password: 'ying9' },
+        'video3': { element: document.getElementById('video3'), unlocked: false, password: 'ying9' },
+        'video4': { element: document.getElementById('video4'), unlocked: false, password: 'ying9' },
+        'video5': { element: document.getElementById('video5'), unlocked: false, password: 'ying9' },
+        'video6': { element: document.getElementById('video6'), unlocked: false, password: 'ying9' }
+    };
+
+    // 初始化：禁用所有视频控件
+    for (var key in videos) {
+        videos[key].element.controls = false;
+    }
+
+    // 弹窗元素
+    var passwordModal = document.getElementById("passwordModal");
+    var modalMessage = document.getElementById("modalMessage");
+    var passwordInput = document.getElementById("passwordInput");
+    var submitPassword = document.getElementById("submitPassword");
+    var getPasswordBtn = document.getElementById("getPasswordBtn");
+    var closeSpan = passwordModal.getElementsByClassName("close")[0];
+    var currentVideo = null;
+
+    // 点击视频触发密码弹窗
+    for (var key in videos) {
+        videos[key].element.addEventListener('click', function() {
+            var videoKey = this.id;
+            if (!videos[videoKey].unlocked) {
+                currentVideo = videoKey;
+                modalMessage.textContent = `请输入密码以解锁${videos[videoKey].element.getAttribute('data-title')}`;
+                passwordModal.style.display = 'block';
+            }
+        });
+    }
+
+    // “输入密码”按钮验证
+    submitPassword.onclick = function() {
+        if (passwordInput.value === videos[currentVideo].password) {
+            videos[currentVideo].element.controls = true;
+            videos[currentVideo].unlocked = true;
+            passwordModal.style.display = 'none';
+            passwordInput.value = '';
+        } else {
+            alert('密码错误，请重试或进群获取密码！');
+        }
+    };
+
+    // “点我进群获取密码”按钮跳转
+    getPasswordBtn.onclick = function() {
+        window.location.href = 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jG6Xevd7U1V9qzZi-fYW7658Kpl699Ir&authKey=hMwndjVfO1ZcQ%2BiRWX1sQbC0XeQ%2B%2BSr3uWwwRepCS6B2o24HAPetuVTuciT%2F8gZs&noverify=0&group_code=780243469';
+    };
+
+    // 点击关闭按钮或外部区域关闭弹窗
+    closeSpan.onclick = function() {
+        passwordModal.style.display = 'none';
+        passwordInput.value = '';
+    };
+    window.onclick = function(event) {
+        if (event.target == passwordModal) {
+            passwordModal.style.display = 'none';
+            passwordInput.value = '';
+        }
+    };
+</script>
+
+</body>
+</html>
